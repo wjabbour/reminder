@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="page_elements.css">
+    <link rel="stylesheet" href="form_elements.css">
+    <style>
+        .myDiv{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Have You Grinded Today?</h1>
+   
+    <div class="myDiv">
+    <div class="box">
+    <button onclick="clickYes()">
+        Yes, I did
+    </button>
+
+    <button onclick="clickNo()">
+        No, I did not
+    </button>
+    </div>
+    </div>
+    <script type="text/JavaScript">
+        function clickYes(){
+            console.log("Good Job");
+        };
+        function clickNo(){
+            console.log("Really? Come on man...");
+        };
+    </script>
+</body>
+</html>
